@@ -7,8 +7,8 @@ public class UsersServiceTest {
     @Test
     public void stringToUpCaseTesting()
     {
-        var msc = new MyStringClass();
-        var result = MyStringClass.stringToUpper("Я делаю проверку метода");
+        MyStringClass msc = new MyStringClass();
+        String result = MyStringClass.stringToUpper("Я делаю проверку метода");
         Assert.assertEquals(result,"Я ДЕЛАЮ ПРОВЕРКУ МЕТОДА");
     }
     @Test

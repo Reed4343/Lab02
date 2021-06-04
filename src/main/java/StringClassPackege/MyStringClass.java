@@ -1,7 +1,5 @@
 package StringClassPackege;
 
-import java.util.Locale;
-import java.util.Scanner;
 
 public class MyStringClass {
     public static String stringToUpper(String Line){
