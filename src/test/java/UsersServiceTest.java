@@ -8,21 +8,21 @@ public class UsersServiceTest {
     public void stringToUpCaseTesting()
     {
         var msc = new MyStringClass();
-        var result = MyStringClass.stringToUpCase("Я делаю проверку метода");
+        var result = MyStringClass.stringToUpper("Я делаю проверку метода");
         Assert.assertEquals(result,"Я ДЕЛАЮ ПРОВЕРКУ МЕТОДА");
     }
     @Test
     public void stringToLowCaseTesting()
     {
         var msc = new MyStringClass();
-        var result = MyStringClass.stringToLowCase("ВСЕ ЕЩЕ ПРОВЕРЯЮ");
+        var result = MyStringClass.stringToLower("ВСЕ ЕЩЕ ПРОВЕРЯЮ");
         Assert.assertEquals(result, "все еще проверяю");
     }
     @Test
     public void stringLenTesting()
     {
         var msc = new MyStringClass();
-        int res = MyStringClass.stringLen("Hello World");
+        int res = MyStringClass.stringLength("Hello World");
         Assert.assertEquals(res, 11);
     }
     @Test

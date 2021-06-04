@@ -4,14 +4,14 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class MyStringClass {
-    public static String stringToUpCase(String Line){
+    public static String stringToUpper(String Line){
         return Line.toUpperCase();
     }
-    public static String stringToLowCase(String Line){
+    public static String stringToLower(String Line){
 
         return Line.toLowerCase();
     }
-    public static int stringLen(String Line){
+    public static int stringLength(String Line){
         return Line.length();
     }
     public static String stringUnion(String FirstLine, String SecondLine){
